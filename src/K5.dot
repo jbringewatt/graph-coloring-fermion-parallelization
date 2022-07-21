@@ -1,0 +1,17 @@
+graph G{
+000 [label="0", type="physical"];
+001 [label="1", type="physical"];
+002 [label="2", type="physical"];
+003 [label="3", type="physical"];
+004 [label="4", type="physical"];
+000 -- 001;
+000 -- 002;
+000 -- 003;
+000 -- 004;
+001 -- 002;
+001 -- 003;
+001 -- 004;
+002 -- 003;
+002 -- 004;
+003 -- 004;
+}
